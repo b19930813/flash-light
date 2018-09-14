@@ -1,0 +1,25 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.youngtec.flashlight.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/btn_give_me_a_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="給我一盞明光"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="230dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
